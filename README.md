@@ -127,6 +127,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 - **Author:** Shreyas Patil
-- **Email:** [shreyaspatil554#gmail.com](shreyaspatil554#gmail.com)
+- **Email:** [shreyaspatil554@gmail.com](shreyaspatil554@gmail.com)
 
 ---
