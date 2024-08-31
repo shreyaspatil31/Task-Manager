@@ -24,12 +24,37 @@ This is a Task Manager application built using Spring Boot, Hibernate, REST API,
 
 ## Project Structure
 
-- `com.example.TaskManager`
-  - `controllers` - Contains REST controllers for handling HTTP requests.
-  - `dto` - Data Transfer Objects (DTO) for transferring data between client and server.
-  - `entities` - JPA entities representing database tables.
-  - `repositories` - Spring Data JPA repositories for database operations.
-  - `service` - Service layer handling business logic.
+```plaintext
+TaskManager/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/TaskManager/
+│   │   │       ├── controllers/
+│   │   │       │   └── TaskController.java
+│   │   │       ├── dto/
+│   │   │       │   ├── CreateNoteDTO.java
+│   │   │       │   ├── CreateTaskDTO.java
+│   │   │       │   └── UpdateTaskDTO.java
+│   │   │       ├── entities/
+│   │   │       │   ├── NoteEntity.java
+│   │   │       │   └── TaskEntity.java
+│   │   │       ├── repositories/
+│   │   │       │   ├── NoteRepository.java
+│   │   │       │   └── TaskRepository.java
+│   │   │       ├── service/
+│   │   │       │   └── TaskService.java
+│   │   │       └── TaskManagerApplication.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
+```
 
 ## Getting Started
 
@@ -102,4 +127,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Contact
 
 - **Author:** Shreyas Patil
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
+- **Email:** [shreyaspatil554#gmail.com](shreyaspatil554#gmail.com)
+
+---
