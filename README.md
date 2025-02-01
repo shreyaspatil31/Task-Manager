@@ -1,4 +1,4 @@
-# Task Manager Application
+# Task Management Application
 
 This is a Task Manager application built using Spring Boot, Hibernate, REST API, and MySQL. The application allows users to manage tasks and their associated notes, providing features to create, read, update, and delete tasks and notes.
 
